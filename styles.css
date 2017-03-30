@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+}
+
+html {
+  background: black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-image: url('background.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 128px;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, .4);
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 28px;
+  margin-bottom: -6px;
+  margin-right: 5px;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-left: 16px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+
+.text {
+  align-self: flex-end;
+  padding: 30px 50px;
+}
+
+.text p {
+  padding: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
